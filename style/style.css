@@ -1,0 +1,351 @@
+
+body{
+	margin:0px;
+	font-family:Helvetica;
+	color:Navy;
+	background:white;	
+	line-height:1.5;
+}
+#header,  #footer{
+	display:flex;
+}
+#header{
+	background:#6495ED;
+	font-size:200%;
+	
+}
+
+#main{
+	float:left;
+	width:70%;
+	min-height:600px;
+	background:white;
+	font-size:150%;
+	display:flex;
+}
+
+#header1{
+	color:Navy;
+	display:flex;
+	flex:2;	
+	text-align:center;
+}
+
+.link,.foot{
+	flex:3;
+	text-align:center;	
+}
+#header2{
+	display:flex;
+	flex:10;	
+	text-align:center;
+	color:white;
+}
+#sidebar{
+	float:left;
+	width:20%;
+	flex:2;
+	
+}
+
+/*index units displayed*/
+.containerunit{
+		display:flex;
+		flex-basis:70%;
+		justify-content: center;
+		
+	}
+
+.columnunit{
+		background-color: white;
+		border:1px #ccc solid;
+		text-align: center;
+		float: right;
+		width: 50%;
+		padding:5%;
+		height: 300px;
+		
+}
+#content{
+	flex:10;
+	padding:5%;
+}
+#footer{
+	
+	text-align: center;
+	justify-content: center;
+	width:100%;
+}
+
+.foot{
+		display:flex;
+		flex-basis:100%;
+		justify-content: center;
+		
+	}
+
+.footcolumn{
+		background-color: Yellow;
+		border:1px #ccc solid;
+		text-align: center;
+		float: left;
+		width: 40%;
+		padding-left:10%;
+		padding-right:10%;
+		height: 100px
+		
+}
+.footbutton{
+	background:#6495ED;
+	float:left;
+	width:100%;
+	padding-top:20px;
+	padding-left:5%;
+	padding-right:5%;
+	height: 100px;
+	justify-content: center;
+}
+a{
+	color:white;
+}
+input,textarea{
+	font-size:14pt;
+	width:100%;
+	
+}
+
+.container{
+		display:flex;
+		flex-basis:33%;
+		justify-content: center;
+		
+	}
+
+.column{
+		background-color: white;
+		border:1px #ccc solid;
+		text-align: center;
+		float: right;
+		width: 33.33%;
+		padding-left: 30px;
+		height: 300px
+		
+}	
+
+
+button{
+		/*background-color: #6495ED;*/
+		color: navy;
+		text-align:center;
+		align-items: center;
+		
+}
+h1{
+	color: Navy;
+	font-size: 14pt;
+	font-family: Georgia;
+	text-align:center;
+	margin: 50px;
+}
+p{
+	color: Navy;
+	font-size: 14pt;
+	font-family: Georgia;
+	text-align:center;
+	margin: 50px;
+}
+
+.row {
+  display: flex;
+}
+
+.column2 {
+  flex: 50%;
+  padding: 5px;
+}
+	
+.central {
+  text-align:center;
+}
+
+.section {
+  text-align:center;
+}
+/*index.html image slider*/
+
+th, td {
+  padding: 10px;
+}
+
+/*.item {
+  width: 400px;
+  height: 400px;
+  margin: 0 auto 20px;
+  text-align: center;
+}
+
+.items{
+  position: relative;
+  height: 333px;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  opacity: 0;
+  transition: opacity 1s;
+}
+.slider .photos img {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  opacity: 0;
+  transition: opacity 1s;
+}
+.slider .photos img.shown {
+  opacity: 1;
+}
+    
+.prev:before,
+.next:before {
+  color: #fff;
+  font-size: 50px;
+  position: absolute;
+  top: 35%;
+  cursor: pointer;
+}
+
+.prev:before {
+  content: '<';
+  left: 0;
+}
+
+.next:before {
+  content: '>';
+  right: 0;
+}*/
+
+.table_reserve_box {
+    margin-top: 30px;
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-bottom: 60px;
+    padding: 40px 80px;
+    background-color: #c6badc;
+    box-shadow: 3px 5px 10px #7527b0;
+}
+.container4{
+		display:flex;
+		flex-basis:30%;
+		justify-content: center;
+		background-color: blue;
+		margin: 200px;
+		box-shadow: 10px 15px 20px rgba(0, 0, 0, .1);
+		display: grid;
+		grid-template-columns: 80%;
+		grid-template-rows: 15%;	
+		padding-left:30px;
+}
+.container-time {
+		background-color: rgba(0, 0, 0, .95);
+		padding: 50px;
+		outline: 3px dashed #998100;
+		outline-offset: -30px;
+		text-align: center;
+}
+.container4-form {
+		padding: 20px 0;
+		margin: 0 auto;
+		color: Navy;
+}
+form {
+		display: grid;
+		
+		grid-row-gap: 10px;
+}
+form p {
+		font-weight: 600;
+}
+.form-field {
+		font-size: 12pt;
+		display: flex;
+		justify-content: space-between;
+}
+
+input,select {
+		padding: 10px 15px;
+}
+ 
+
+/* New Login Form*/
+/* Bordered form */
+form {
+  border: 3px solid #f1f1f1;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #6495ED;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+/* Avatar image */
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
+/* The "Forgot password" text */
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+}
+/*End of New Login Form*/
+
